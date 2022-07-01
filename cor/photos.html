@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="style.css">
+     <link rel="icon" type="image/png" href="favicon-16x16.png">
+     
+    <title>Foto</title>
+</head>
+<body>
+  <div id="navbar">
+    <div id="quote">
+  <q >Cântați Domnului o cântare nouă!</q>
+    </div>
+    <div id="home">
+      <a href="index.html">Acasa</a>
+        </div>
+        <div id="about-us">
+          <a href="about-us.html">Despre noi</a>
+            </div>
+     <div id = "albums">
+      <ul>
+        <li> 
+          <a href="#"g id="albume-list">Albume</a>
+          <ul>
+            <li> <a href="album1.html" class="albume">Album 1</a></li>
+            <li> <a href="album2.html" class="albume">Album 2</a></li>
+            <li> <a href="album3.html" class="albume">Album 3</a></li>
+            <li> <a href="album4.html" class="albume">Album 4</a></li>
+          </ul>
+        </li>
+      </ul>
+     </div>
+     <div id="foto">
+      <a href="photos.html">Foto</a>
+        </div>
+        <div id="video">
+          <a href="videos.html">Video</a>
+            </div>
+            <div id="news">
+              <a href="news.html">Stiri</a>
+                </div>
+                <div id="contact">
+                  <a href="contact.html">Contact</a>
+                    </div>
+  </div> 
+        <div>
+            <h2>Foto</h2>
+            <div id="photo-albums">
+            <div id="members-album-enter">
+              <a href="#">
+                <img src="IMG_0490.JPG" alt="img" id= "members-album-enter-image">
+                <div id="members-album-enter-caption">
+                  <p>Componenta corului</p>
+              </div></a>
+            </div>
+
+            <div id="programe-si-concerte">
+              <a href="#">
+                <img src="7-ani-speranta.jpg" alt="img" id= "programe-si-concerte-image">
+                <div id="programe-si-concerte-caption">
+                  <p>Programe si concerte muzicale</p>
+              </div></a>
+            </div>
+
+
+            <div id="productie-muzicala">
+              <a href="#">
+                <img src="filmari-izvor-test.JPG" alt="img" id= "productie-muzicala-image">
+                <div id="productie-muzicala-caption">
+                  <p>Productie muzicala</p>
+              </div></a>
+            </div>
+
+            <div id="voluntariat-si-parteneriat">
+              <a href="#">
+                <img src="group-photo-test.JPG" alt="img" id= "voluntariat-si-parteneriat-image">
+                <div id="voluntariat-si-parteneriat-caption">
+                  <p>Voluntariat si parteneriat</p>
+              </div></a>
+            </div>
+
+           
+          </div>
+        </div>
+        <div id="footer">
+          <div id="daily-texts">
+            <div id="daily-texts-script">
+            <script type="text/javascript" src="https://www.resursecrestine.ro/web-api-versetul-zilei"> </script>
+          </div>
+          </div>
+         </div>
+         <script>
+          window.onload = randomMembersImage;
+          window.onload = randomVoluntaryImage;
+          let videoShootPhotosArray = new Array("BALEA LAC 1.jpg", "BALEA LAC 2.JPG", 
+                                       "BALEA LAC 3.JPG", "BALEA LAC 4.JPG", 
+                                       "BALEA LAC 5.JPG", "BALEA LAC 5.jpg", "Dealul Moiseiului, 2011 - 1.jpg",  "Dealul Moiseiului, 2011 - 2.jpg",
+                                       "Dealul Moiseiului, 2011 -3.jpg", "Dealul Moiseiului, 2011 - 4.jpg", "DVD disc MOISEI.png", "FILMARI 2016.JPG", 
+                                       "FILMARI SPERANTA, 2010 - 1.JPG", "FILMARI SPERANTA, 2010 - 2.JPG", "FILMARI SPERANTA, 2010 - 3.JPG", 
+                                       "FILMARI SPERANTA, 2010 - 4.JPG", "IZVORUL DRAGOS 2009 - 1.JPG",
+                                        "IZVORUL DRAGOS 2010 - 1.JPG", "IZVORUL DRAGOS 2010 - 2.JPG", "IZVORUL DRAGOS 2011 - 1.jpg",
+                                        "IZVORUL DRAGOS 2011 - 2.jpg", "IZVORUL DRAGOS 2016.JPG", 
+                                        "LACUL STIOL, 2010.JPG", "manastirea-barsana, 2014 - 2.jpg", "MARA, 2016.JPG", "MUZEUL SATULUI MARAMURESEAN 2016.JPG", 
+                                        "PIETROSU 2009.JPG", "PIETROSU 2014.JPG", "POZA SPERANTA LANSARE DVD 3 - 2017.jpg", 
+                                        "REPEDEA, 2010 - 1.JPG", "REPEDEA, 2010 - 2.JPG", "REPEDEA, 2010 - 3.JPG", "REPEDEA, 2010 - 4.JPG",
+                                        "RUPEA, 2016 - 1.jpg", "RUPEA, 2016 - 2.jpg", "SALEM, 2011.jpg", "SIGHET, 2010.JPG", "TRANSFAGARASAN, 2016 - 1.JPG", 
+                                        "TRANSFAGARASAN, 2016 - 2.JPG", "TRANSFAGARASAN, 2016 - 3.JPG", "Valea Vaserului, 2011 - 1.jpg" , 
+                                        "Valea Vaserului, 2011 - 2.jpg" , "Valea Vaserului, 2011 - 3.jpg" , "Valea Vaserului, 2011 - 4.jpg" , "Valea Vaserului, 2011 - 5.jpg" ,
+                                        "Valea Vaserului, 2011 - 6.jpg", "VIDRARU, 2016 - 2.jpg" , "VIDRARU, 2016 - 3.jpg" , "VIDRARU, 2016 - 4.jpg", "VIDRARU, 2016 - 5.jpg" )
+          let voluntaryPhotosArray = new Array("2.jpg", "BARLAD 2016.jpg", "MURES 2015 - 1.JPG", "MURES 2015 - 2.JPG", 
+                                              "Parava- Bacau.jpg", "PENITENCIAR BAIA MARE, 2010 - 1.JPG", "PENITENCIAR BAIA MARE, 2010 - 2.JPG",
+                                              "Ploiesti- Crisan 1.JPG", "Ploiesti- Crisan 2.JPG", "Ploiesti- Crisan 3.jpg",
+                                              "Ploiesti, Crisan 4.JPG","Vaslui- lonut Plesu, Concert Caritabil.JPG", 
+                                              "Vaslui- lonut Plesu.jpg", "VASLUI, 2016.JPG")
+          function randomMembersImage() {
+            var randomNum = Math.floor(Math.random() * videoShootPhotosArray.length);
+            var path = "inregistrari-si-filmari/"
+            document.getElementById("productie-muzicala-image").src = path + videoShootPhotosArray[randomNum];
+          }
+
+          function randomVoluntaryImage() {
+            var randomNum = Math.floor(Math.random() * voluntaryPhotosArray.length);
+            var path = "VOLUNTARIAT/"
+            document.getElementById("voluntariat-si-parteneriat-image").src = path + voluntaryPhotosArray[randomNum];
+          }
+         </script>
+</body>
+</html>
