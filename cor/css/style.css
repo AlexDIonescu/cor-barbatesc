@@ -83,7 +83,6 @@ section img {
 #home {
     display: inline-block;
     padding-right: 20px;
-    padding-left: 20px;
     /* border:solid; */
    border-width: 0px 3px 0px 0px;
     border-color: #fff;
@@ -111,7 +110,6 @@ section img {
 
 #about-us {
     display: inline-block;
-    padding-right: 20px;
     padding-left: 20px;
 }
 #about-us a{
@@ -160,7 +158,7 @@ section img {
 
 /*ul li ul li {*/
 /*    background-color: #0a2a43;*/
-/*    !* border-radius: 10px; *!*/
+width: 108.5px;/*    !* border-radius: 10px; *!*/
 /*    display: block;*/
 /*}*/
 /*ul li ul li a{*/
@@ -415,7 +413,7 @@ section img {
 }
 
 #photo-albums {
-    margin-left: 100px;
+    margin-left: 250px;
     margin-top: 100px;
 }
 #members-album-enter {
@@ -430,7 +428,7 @@ section img {
     text-align: center;
 }
 #members-album-enter a {
-    color: #0a2a43;
+    color:#fff;
     text-decoration: none;
 }
 #members-album-enter-image {
@@ -442,128 +440,79 @@ section img {
     opacity: 0.5;
 }
 
-#sapte-ani-speranta {
-    margin-left: 50px;
+#programe-si-concerte {
+    margin-left: 200px;
     display: inline-block;
     width: 400px;
 }
-#sapte-ani-speranta-caption  {
+#programe-si-concerte-caption  {
     display: block;
     background-color: #435869;
 }
-#sapte-ani-speranta-caption p {
+#programe-si-concerte-caption p {
     text-align: center;
 }
-#sapte-ani-speranta a {
-    color: #0a2a43;
+#programe-si-concerte a {
+    color:#fff;
     text-decoration: none;
 }
-#sapte-ani-speranta-image {
+#programe-si-concerte-image {
     display: block;
     width: 400px;
     height: 250px;
 }
-#sapte-ani-speranta:hover {
+#programe-si-concerte:hover {
     opacity: 0.5;
 }
 
-#arad-iesire {
-    margin-left: 50px;
+
+#productie-muzicala {
+    margin-top: 120px;
     display: inline-block;
     width: 400px;
 }
-#arad-iesire-caption  {
+#productie-muzicala-caption  {
     display: block;
     background-color: #435869;
 }
-#arad-iesire-caption p {
+#productie-muzicala-caption p {
     text-align: center;
 }
-#arad-iesire a {
-    color: #0a2a43;
+#productie-muzicala a {
+    color:#fff;
     text-decoration: none;
 }
-#arad-iesire-image {
+#productie-muzicala-image {
     display: block;
     width: 400px;
     height: 250px;
 }
-#arad-iesire:hover {
+#productie-muzicala:hover {
     opacity: 0.5;
 }
 
-#filmari-izvor {
-    margin-top: 50px;
+#voluntariat-si-parteneriat {
+    margin-left: 200px;
     display: inline-block;
     width: 400px;
 }
-#filmari-izvor-caption  {
+#voluntariat-si-parteneriat-caption  {
     display: block;
     background-color: #435869;
 }
-#filmari-izvor-caption p {
+#voluntariat-si-parteneriat-caption p {
     text-align: center;
 }
-#filmari-izvor a {
-    color: #0a2a43;
+#voluntariat-si-parteneriat a {
+    color:#fff;
     text-decoration: none;
 }
-#filmari-izvor-image {
+#voluntariat-si-parteneriat-image {
     display: block;
     width: 400px;
     height: 250px;
 }
-#filmari-izvor:hover {
-    opacity: 0.5;
-}
-
-#group-photo {
-    margin-left: 50px;
-    display: inline-block;
-    width: 400px;
-}
-#group-photo-caption  {
-    display: block;
-    background-color: #435869;
-}
-#group-photo-caption p {
-    text-align: center;
-}
-#group-photo a {
-    color: #0a2a43;
-    text-decoration: none;
-}
-#group-photo-image {
-    display: block;
-    width: 400px;
-    height: 250px;
-}
-#group-photo:hover {
-    opacity: 0.5;
-}
-
-#festival-bucovina {
-    margin-left: 50px;
-    display: inline-block;
-    width: 400px;
-}
-#festival-bucovina-caption  {
-    display: block;
-    background-color: #435869;
-}
-#festival-bucovina-caption p {
-    text-align: center;
-}
-#festival-bucovina a {
-    color: #0a2a43;
-    text-decoration: none;
-}
-#festival-bucovina-image {
-    display: block;
-    width: 400px;
-    height: 250px;
-}
-#festival-bucovina:hover {
+#voluntariat-si-parteneriat:hover {
     opacity: 0.5;
 }
 
